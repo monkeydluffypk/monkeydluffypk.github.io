@@ -1,5 +1,5 @@
-theme: hacker
+theme: jekyll-theme-hacker
 layout: page
-title: Monkey D. Luffy PK - MLH Custom Site
+title: Monkey D. Luffy PK - MLH
 description: From GitHub with love !
-permalink: /home
+permalink: /404.html
