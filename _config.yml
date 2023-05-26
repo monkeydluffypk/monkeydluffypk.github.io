@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
+layout: page
 title: Monkey D. Luffy PK - MLH Custom Site
 description: No pain no gain !
+permalink: /home
