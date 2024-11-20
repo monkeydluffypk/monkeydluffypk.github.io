@@ -3,7 +3,24 @@
     <head>
         <title>PMS Agent</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-        <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://*.develop.my.site.com">
+        <style type="text/css">
+            html {
+                overflow: auto;
+            }
+            html,body,div,iframe {
+                margin: 0px;
+                padding: 0px;
+                height: 100%;
+                border: none;
+            }
+            iframe {
+                display: block;
+                width: 100%;
+                border: none;
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+    </style>
     </head>
     <body>
         <div>
@@ -27,6 +44,14 @@
             </script>
             <script type='text/javascript' src='https://furucrm-pms-dev-ed.develop.my.site.com/ESWESAWebDeployment1724800920657/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
         </div>
-        <iframe src="https://furucrm-pms-dev-ed.develop.my.site.com/s/" height="1000" width="2000" title="PMS Agent" allowfullscreen="true"></iframe>
+        <iframe src="https://furucrm-pms-dev-ed.develop.my.site.com/s/" 
+            title="PMS Agent" 
+            frameborder="0" 
+            marginheight="0" 
+            marginwidth="0" 
+            width="100%" 
+            height="100%" 
+            scrolling="auto">
+        </iframe>
     </body>
 </html>
