@@ -9,7 +9,7 @@ html,body,div,iframe {
 }
 iframe {
     display: block;
-    width: 107%;
+    width: 114%;
     border: none;
     overflow-y: auto;
     overflow-x: hidden;
