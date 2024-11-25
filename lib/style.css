@@ -22,3 +22,11 @@ iframe {
     height: 60px;
     z-index: 10;
 }
+#scroller-left{
+    position: fixed;
+    left: 0;
+}
+#scroller-right{
+    position: fixed;
+    right: 0;
+}
