@@ -17,3 +17,8 @@ iframe {
     overflow-y: auto;
     overflow-x: hidden;
 }
+msg-pop {
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+}
