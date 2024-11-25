@@ -21,9 +21,10 @@ iframe {
 .custom_msg_pop {
     width: 80px;
     height: 80px;
-    z-index: 2;
+    z-index: 1000;
     position: sticky;
     float: right;
     margin-top: -90px;
     margin-right: 10px;
+    pointer-events: none;
 }
