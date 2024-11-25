@@ -26,4 +26,5 @@ iframe {
     float: right;
     margin-top: -90px;
     margin-right: 10px;
+    cursor: pointer;
 }
