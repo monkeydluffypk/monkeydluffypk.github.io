@@ -19,12 +19,12 @@ iframe {
     overflow-x: hidden;
 }
 .custom_msg_pop {
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 100px;
     z-index: 1000;
     position: sticky;
     float: right;
-    margin-top: -90px;
-    margin-right: 10px;
+    margin-top: -100px;
+    margin-right: -50px;
     pointer-events: none;
 }
